@@ -1,9 +1,9 @@
 body{
-	background-color: #4cddc0;
+	background-color: #a41e35;
 }
 .login_div{
 	box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #1a495b;
+	background-color: #eee;
 	width: 80%;
 	height: auto;
 	margin-top: 4%;
@@ -11,20 +11,20 @@ body{
 }
 #header_para{
 	padding-top: 10%;
-	font-size: 150%;
-	color: #4cddc0;
+	font-size: 2.8rem;
+	color: #a41e35;
 	margin-bottom: 0;
 }
 #card{
 	font-family:'Raleway', sans-serif;
-	opacity: .7;
+	opacity: 1;
 	font-size: 200%;
 }
 #hr1{
 	border-radius: 4px;
 	width: 1.5%;
 	height: 4px;
-	background-color:#4cddc0;
+	background-color:#a41e35;
 	border: none;
 	display: inline-block;
 	margin-left: 6%; 
@@ -33,21 +33,20 @@ body{
 	border-radius: 4px;
 	width: 5.5%;
 	height: 4px;
-	background-color:#4cddc0;
+	background-color:#a41e35;
 	border: none;
 	display: inline-block; 
 }
-.input_style:focus{width:80% !important}
 .input_style{
 	-webkit-transition:width 0.4s ease-in-out;transition:width 0.4s ease-in-out;
 	width: 50%;
 	height: 40px;
-	background-color: black;
+	background-color:white;
 	outline: none;
 	border: none;
 	border-radius: 20px;
 	padding-left: 10px;
-	color: #4cddc0;
+	color: #a41e35;
 }
 #login_button{
 	box-shadow: 0 8px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -57,14 +56,15 @@ body{
 	border: none;
 	margin-bottom: 10%;
 	outline: none;
-	background-color: #4cddc0;
-	transition: 400ms ease-in-out; 
+	background-color: #a41e35;
+    transition: 400ms ease-in-out; 
+    color:white;
 }
 #login_button:hover{
-	background-color: #1a495b;
-	color: white;
+	background-color: #feb426;
+	color: #222;
 }
 #forgot a{
 	font-size: 120%;
-	color: white;
+	color: rgb(0, 0, 0);
 } 
