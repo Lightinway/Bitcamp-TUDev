@@ -1,0 +1,71 @@
+body{
+	background-color: #a41e35;
+}
+.login_div{
+	box-shadow: 0 20px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #eee;
+	width: 80%;
+	height: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+#header_para{
+	padding-top: 10%;
+	font-size: 2.8rem;
+	color: #a41e35;
+	margin-bottom: 0;
+}
+#card{
+	font-family:'Raleway', sans-serif;
+	opacity: 1;
+	font-size: 200%;
+}
+#hr1{
+	border-radius: 4px;
+	width: 1.5%;
+	height: 4px;
+	background-color:#a41e35;
+	border: none;
+	display: inline-block;
+	margin-left: 6%; 
+}
+#hr2{
+	border-radius: 4px;
+	width: 5.5%;
+	height: 4px;
+	background-color:#a41e35;
+	border: none;
+	display: inline-block; 
+}
+.input_style{
+	-webkit-transition:width 0.4s ease-in-out;transition:width 0.4s ease-in-out;
+	width: 50%;
+	height: 40px;
+	background-color:white;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	padding-left: 10px;
+	color: #a41e35;
+}
+#signup_button{
+	box-shadow: 0 8px 60px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 10%;
+	outline: none;
+	background-color: #a41e35;
+    transition: 400ms ease-in-out; 
+    color:white;
+}
+#signup_button:hover{
+	background-color: #feb426;
+	color: #222;
+}
+#forgot a{
+	font-size: 120%;
+	color: rgb(0, 0, 0);
+} 
+
